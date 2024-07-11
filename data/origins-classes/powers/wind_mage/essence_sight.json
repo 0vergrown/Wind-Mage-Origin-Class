@@ -1,0 +1,28 @@
+{
+    "type":"origins:multiple",
+    "wind_aura":{
+       "type":"origins:entity_glow",
+       "entity_condition":{
+          "type":"origins:origin",
+          "origin":"origins-classes:wind_mage",
+          "layer":"origins:class"
+       },
+       "bientity_condition":{
+          "type":"origins:can_see",
+          "shape_type":"visual",
+          "fluid_handling":"none"
+       },
+       "use_teams":false,
+       "red":0.9803921568627451,
+       "green":0.9764705882352941,
+       "blue":0.9647058823529412
+    },
+    "particles":{
+       "type":"origins:invisibility",
+       "render_armor":false,
+       "condition":{
+          "type":"origins:power_active",
+          "power":"*:*_toggle"
+       }
+    }
+}

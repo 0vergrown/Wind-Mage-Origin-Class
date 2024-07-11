@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"origins-classes:wind_mage/aeroquint",
+		"origins-classes:wind_mage/arcane_conduit",
+		"origins-classes:wind_mage/aetheric_collapse",
+		"origins-classes:wind_mage/veil_of_the_zephyr",
+		"origins-classes:wind_mage/wind_particles",
+		"origins-classes:wind_mage/gust_blade",
+		"origins-classes:wind_mage/galeheart_focus"
+	],
+	"icon": {
+		"item": "minecraft:player_head",
+		"tag":"{SkullOwner:{Id:[I;-341792018,207965951,-1986684775,-458026877],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI3ZWFlZjMyOWRkOTM0ZTY3Y2YzZDQ4MTNjOWI4OWJmZmQ3OTRjZmE1ZWY4YjRlMTU4ZjI1YmQ1ZGQzZTM5MyJ9fX0=\"}]}}}"
+	},
+	"order": 10,
+	"impact": 3
+}

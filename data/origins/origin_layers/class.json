@@ -1,0 +1,35 @@
+{
+  "order": 10,
+  "origins": [
+    "origins-classes:wind_mage"
+  ],
+  "enabled": true,
+  "replace": false,
+  "name":{
+    "type": "translatable",
+    "translate": "layer.origins-classes.class.name"
+  },
+  "gui_title":{
+    "choose_origin":{
+      "type": "translatable",
+      "translate": "origins-classes.gui.choose_class.title"
+    },
+    "view_origin":{
+      "type": "translatable",
+      "translate": "origins-classes.gui.view_class.title"
+    }
+  },
+  "missing_name":{
+    "type": "translatable",
+    "translate": "origins-classes.class.empty.name"
+  },
+  "missing_description":{
+    "type": "translatable",
+    "translate": "origins-classes.class.empty.description"
+  },
+  "allow_random": true,
+  "allow_random_unchoosable": false,
+  "auto_choose":false,
+  "hidden": false,
+  "loading_priority": 1
+}

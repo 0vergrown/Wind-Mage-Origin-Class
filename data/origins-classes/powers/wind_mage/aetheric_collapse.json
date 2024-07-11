@@ -1,0 +1,66 @@
+{
+    "type": "origins:action_over_time",
+    "rising_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:exhaust",
+                "amount": 2.0
+            },
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:slowness",
+                    "duration": 100,
+                    "amplifier": 9,
+                    "is_ambient": false,
+                    "show_particles": false,
+                    "show_icon": true
+                }
+            },
+            {    
+                "type": "origins:chance",
+                "action": {
+                    "type": "origins:apply_effect",
+                    "effects": [
+                        {
+                            "effect": "minecraft:blindness",
+                            "duration": 100,
+                            "amplifier": 9,
+                            "is_ambient": false,
+                            "show_particles": false,
+                            "show_icon": true
+                        },
+                        {
+                            "effect": "minecraft:weakness",
+                            "duration": 100,
+                            "amplifier": 9,
+                            "is_ambient": false,
+                            "show_particles": false,
+                            "show_icon": true
+                        }
+                    ]
+                },
+                "chance": 0.3,
+                "fail_action": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:weakness",
+                        "duration": 60,
+                        "amplifier": 9,
+                        "is_ambient": false,
+                        "show_particles": false,
+                        "show_icon": true
+                    }
+                }
+            }
+        ]
+    },
+    "interval": 1,
+    "condition": {
+        "type": "origins:resource",
+        "resource": "origins-classes:wind_mage/aeroquint_resource",
+        "comparison": "==",
+        "compare_to": 0
+    }
+}
